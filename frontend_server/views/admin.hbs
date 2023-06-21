@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>OSF Admin Dashboard</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'><link rel="stylesheet" href="style.admin.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <script src="https://cdn.ckeditor.com/4.7.3/standard/ckeditor.js"></script>
+  </head>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="#">OSF</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Dashboard</a></li>
+          <li><a href="#">Scan</a></li>
+          <li><a href="/password_manager">Password Generator</a></li>
+          <li><a href="#">Email client</a></li>
+          <li><a href="/network">Threads</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href=# "">{{name}}</a></li>
+          <li><a href="/logout">Log out</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <!--header-->
+  <div class="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 ">
+          <h2><span class="glyphicon glyphicon-cog" id="gear"></span> Dashboard</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Breadcrumb-->
+  <section id="breadcrumb" >
+    <div class="container">
+      <ol class="breadcrumb">
+        <li class="active">Home</li>
+      </ol>
+    </div>
+  </section>
+
+  <!--main section-->
+  <section id="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="list-group animated zoomIn">
+            <a href="#" class="list-group-item active  main-color-bg">
+                  <span class="glyphicon glyphicon-cog"></span> Dashboard
+              </a>
+            <a href="pages.html" class="list-group-item"><span class="badge">14</span><span class="glyphicon glyphicon-list-alt"></span> Pages</a>
+            <a href="posts.html" class="list-group-item"><span class="badge">26</span><span class="glyphicon glyphicon-pencil"></span> Posts</a>
+            <a href="users.html" class="list-group-item"><span class="badge">54</span><span class="glyphicon glyphicon-user"></span> Users</a>
+          </div>
+          <div class="well animated zoomIn">
+            <h4>Disk Space Used</h4>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <span class="sr-only">60% Complete</span>
+              </div>
+            </div>
+            <h4>Bandwidth Used</h4>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                <span class="sr-only">40% Complete</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="panel panel-default animated zoomIn">
+            <div class="panel-heading main-color-bg">
+              <h3 class="panel-title">Website Overview</h3>
+            </div>
+            <div class="panel-body">
+              <div class="col-md-3">
+                <div class="well dash-box">
+                  <h2><span class="glyphicon glyphicon-user"></span> 140</h2>
+                  <h4>Users</h4>
+                </div>
+              </div>
+              <div class="col-md-3 dash-box">
+                <div class="well">
+                  <h2><span class="glyphicon glyphicon-list-alt"></span> 18</h2>
+                  <h4>Pages</h4>
+                </div>
+              </div>
+              <div class="col-md-3 dash-box">
+                <div class="well">
+                  <h2><span class="glyphicon glyphicon-pencil"></span> 28</h2>
+                  <h4>Posts</h4>
+                </div>
+              </div>
+              <div class="col-md-3 dash-box">
+                <div class="well">
+                  <h2><span class="glyphicon glyphicon-stats"></span> 1140</h2>
+                  <h4>Visiters</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default animated zoomIn">
+            <!-- Default panel contents -->
+            <div class="panel-heading main-color-bg">User Logs</div>
+            <div class="panel-body">
+              <!-- Table -->
+              <table class="table table-striped table-hover">
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Joined</th>
+                </tr>
+                <tr>
+                  <td>Adil Ashraf</td>
+                  <td>adilashraf@fyx.osf.in</td>
+                  <td>April 22,2022</td>
+                </tr>
+                <tr>
+                  <td>Sayooj B Kumar</td>
+                  <td>sayoojbkumar@fyx.osf.in</td>
+                  <td>April 22,2022</td>
+                </tr>
+                <tr>
+                  <td>Sarang Dileep</td>
+                  <td>sarangdileep@fyx.osf.in</td>
+                  <td>April 22,2022</td>
+                </tr>
+                <tr>
+                  <td>Sidharth Sreekumar</td>
+                  <td>sdd445@fyx.osf.in</td>
+                  <td>April 21,2022</td>
+                </tr>
+
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  
+
+
+  
+ 
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="script.admin.js"></script>
+
+</body>
+</html>

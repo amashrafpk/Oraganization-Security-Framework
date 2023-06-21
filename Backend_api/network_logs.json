@@ -1,0 +1,42 @@
+{"Attack_found": "SQL Injection", "impact": 2, "type": "Web based Vulnerability - Server Side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": ["\"", "or"]}
+{"Attack_found": "XSS- Cross Site Scripting", "impact": 2, "type": "Web based Vulnerability - client side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": ["=", "\""]}
+{"Attack_found": "COMMAND Injection", "impact": 1, "type": "Web based Vulnerability - Server Side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": ["ls"]}
+{"Attack_found": "SQL Injection", "impact": 2, "type": "Web based Vulnerability - Server Side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": ["\"", "or"]}
+{"Attack_found": "XSS- Cross Site Scripting", "impact": 2, "type": "Web based Vulnerability - client side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": ["=", "\""]}
+{"Attack_found": "lfi- Localfile Inclusion", "impact": 2, "type": "Web based Vulnerability - Server Side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": [".", "."]}
+{"Attack_found": "COMMAND Injection", "impact": 1, "type": "Web based Vulnerability - Server Side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": ["."]}
+{"Attack_found": "SSRF Server-Side-Request-Forgery", "impact": 3, "type": "Web based Vulnerability - Server Side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": ["0.0.0.0", ":", ":22"]}
+{"Attack_found": "SQL Injection", "impact": 3, "type": "Web based Vulnerability - Server Side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": ["\"", "-", "or"]}
+{"Attack_found": "XSS- Cross Site Scripting", "impact": 9, "type": "Web based Vulnerability - client side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": ["<", ">", "=", "<!--", "-->", "[", "]", "\"", "on"]}
+{"Attack_found": "lfi- Localfile Inclusion", "impact": 5, "type": "Web based Vulnerability - Server Side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": [".", "//", "/", ".", "file:"]}
+{"Attack_found": "COMMAND Injection", "impact": 8, "type": "Web based Vulnerability - Server Side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": [";", ">", "<", "&", "/", ".", "in", "la"]}
+{"Attack_found": "SSRF Server-Side-Request-Forgery", "impact": 3, "type": "Web based Vulnerability - Server Side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": ["[", "]", ":"]}
+{"Attack_found": "XXE - XML external entity injection", "impact": 5, "type": "Web based Vulnerability - Server Side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": ["xml", " ?-->", "<!--?", "&", ";"]}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "SQL Injection", "impact": 4, "type": "Web based Vulnerability - Server Side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": ["\"", "'", "-", "or"]}
+{"Attack_found": "XSS- Cross Site Scripting", "impact": 3, "type": "Web based Vulnerability - client side", "endpoint": " http://0.0.0.0:8008/test", "malicious_inputs": ["=", "'", "\""]}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "Rate limit", "impact": "3", "type": "Computing", "malicious_no_requests": "10"}
+{"Attack_found": "SQL Injection", "impact": 2, "type": "Web based Vulnerability - Server Side", "endpoint": " http://localhost:8008/login", "malicious_inputs": ["\"", "or"]}
+{"Attack_found": "XSS- Cross Site Scripting", "impact": 2, "type": "Web based Vulnerability - client side", "endpoint": " http://localhost:8008/login", "malicious_inputs": ["=", "\""]}

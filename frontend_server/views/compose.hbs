@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Responsive Mail UI</title>
+   <meta name="viewport" content="width=device-width">
+
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500" />
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./mail_client.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<aside id="sidebar" class="nano">
+  <div class="nano-content">
+    <div class="logo-container"><span class="logo glyphicon glyphicon-envelope"></span>Mail</div><a class="compose-button">Compose</a>
+    <menu class="menu-segment">
+      <ul>
+        <li class="active"><a href="#">Inbox<span> (43)</span></a></li>
+        <li><a href="#">Important</a></li>
+        <li><a href="#">Sent</a></li>
+        <li><a href="#">Drafts</a></li>
+        <li><a href="/spam">Spam</a></li>
+      </ul>
+    </menu>
+</aside>
+<main id="main">
+  <div class="overlay"></div>
+  <header class="header">
+    <div class="search-box">
+      <input placeholder="Search..."><span class="icon glyphicon glyphicon-search"></span>
+    </div>
+    <h1 class="page-title"><a class="sidebar-toggle-btn trigger-toggle-sidebar"><span class="line"></span><span class="line"></span><span class="line"></span><span class="line line-angle1"></span><span class="line line-angle2"></span></a>Compose<a><span class="icon glyphicon glyphicon-chevron-down"></span></a></h1>
+  </header>
+
+  <form action = "/send_mail" method ='post'  role="form" class="form-horizontal">
+    <div class="form-group">
+      <label class="col-lg-2 control-label">To</label>
+      <div class="col-lg-10">
+        <input type="text" placeholder="" name = "To" id="inputEmail1" class="form-control">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Cc / Bcc</label>
+      <div class="col-lg-10">
+        <input type="text" placeholder="" name = "cc" id="cc" class="form-control">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Subject</label>
+      <div class="col-lg-10">
+        <input type="text" placeholder="" name = "subject" id="inputPassword1" class="form-control">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Message</label>
+      <div class="col-lg-10">
+        <textarea rows="10" cols="30" class="form-control" name = "Message" id="Message" name=""></textarea>
+      </div>
+    </div>
+  
+    <div class="form-group">
+      <div class="col-lg-offset-2 col-lg-10">
+        <span class="btn green fileinput-button">
+                                          <i class="fa fa-plus fa fa-white"></i>
+                                          <span>Attachment</span>
+        <input type="file" name="files[]" multiple="">
+        </span>
+        <button class="btn btn-send" type="submit">Send</button>
+      </div>
+    </div>
+  </form>
+</main>
